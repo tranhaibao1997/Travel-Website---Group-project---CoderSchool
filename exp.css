@@ -234,7 +234,8 @@ body{
     font-weight: bold;
 }
 .btn-showMore:hover{
-    color: #E27D60;
+    color: white;
     cursor: pointer;
+    background-color: #E27D60;
     
 }

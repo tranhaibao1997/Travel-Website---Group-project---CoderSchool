@@ -182,6 +182,12 @@ flex-direction: column;
     max-width: 100%;
     max-height: 100%;
 } 
+.minh-slide-change li
+{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
 
 
 
