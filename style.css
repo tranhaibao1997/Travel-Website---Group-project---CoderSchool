@@ -1,68 +1,70 @@
-
 .section-title {
-  font-weight: 400;
-  padding: 24px 12px 6px;
-  color: #323337;
-  text-align: center;
-  font-size: 22px;
+    font-weight: 400;
+    padding: 24px 12px 6px;
+    color: #323337;
+    text-align: center;
+    font-size: 22px;
 }
+
 body {
-  background: #f0f2e9;
+    background: #f0f2e9;
 }
+
 .savetime-banner .savetime-banner-content {
-  padding-top: 30px;
-  padding-bottom: 30px;
-  text-align: center;
-  background-image: url("https://www.showaround.com/src/images/a0ea883b8ea2a65b92a3d72590a2c0ce.png");
-  background-position-x: center;
-  background-position-y: center;
-  background-size: 600px 160px;
-  background-repeat: no-repeat;
-  background-attachment: initial;
-  background-origin: initial;
-  background-clip: initial;
-  background-color: rgb(250, 251, 246);
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+    background-image: url("https://www.showaround.com/src/images/a0ea883b8ea2a65b92a3d72590a2c0ce.png");
+    background-position-x: center;
+    background-position-y: center;
+    background-size: 600px 160px;
+    background-repeat: no-repeat;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: rgb(250, 251, 246);
 }
-.savetime-banner-content h3
-{
+
+.savetime-banner-content h3 {
     font-size: 26px;
     color: #323337;
     font-weight: 900;
     text-align: center;
 }
-.savetime-banner-content h3 span
-{
+
+.savetime-banner-content h3 span {
     font-size: 26px;
     color: #323337;
     font-weight: 900;
     text-align: center;
 }
+
 .savetime-banner-content ul {
-  display: flex;
-  justify-content: center;
-  list-style: none;
-  margin-bottom: 40px;
-  
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin-bottom: 40px;
 }
-.savetime-banner-content ul li
-{
+
+.savetime-banner-content ul li {
     font-size: 20px;
     margin-right: 20px;
 }
+
 .savetime-banner-content ul li span {
-  /* padding: 20px; */
-  height: 46px;
-  width: 46px;
-  padding: 12px;
-  border-radius: 50%;
-  display: inline-block;
-  color: #fff;
-  font-weight: 600;
-  text-align: center;
-  background-color: aqua;
+    /* padding: 20px; */
+    height: 46px;
+    width: 46px;
+    padding: 12px;
+    border-radius: 50%;
+    display: inline-block;
+    color: #fff;
+    font-weight: 600;
+    text-align: center;
+    background-color: aqua;
 }
-.savetime-banner-content a
-{
+
+.savetime-banner-content a {
     font-size: 16px;
     width: 250px;
     height: 41px;
@@ -77,34 +79,120 @@ body {
     letter-spacing: 1px;
     border-radius: 5px;
 }
-.savetime-banner-content a:hover
-{
+
+.savetime-banner-content a:hover {
     background: #0286c2;
     border-color: #0286c2;
 }
-.video-section 
-{
-   position: relative;
+
+.video-section {
+    position: relative;
 }
-.video-section .carousel-inner
-{
+
+.video-section .carousel-inner {
     height: 510px;
 }
-.video-section .carousel-item
-{
-background-color: linear-gradient(135deg,rgba(3,169,244,.35) 0,rgba(167,219,216,.35) 44%,rgba(243,134,48,.35) 100%) rgba(0,0,0,.2)
+
+.video-section .carousel-item {
+    background-color: black
 }
-.video-section .carousel-item img
-{
-opacity:0.6 ;
+
+.video-section .carousel-item img {
+    opacity: 0.6;
 }
-.video-section .carousel-item-content
-{
+
+.video-section .carousel-item-content {
     position: absolute;
     z-index: 10;
     display: flex;
-    padding-top: 100px;
+    padding-top: 50px;
     justify-content: center;
     width: 100%;
-    height:100%;
+    height: 100%;
+    text-align: center;
+}
+
+.video-section .carousel-item-content h2 {
+    font-weight: 800;
+    font-size: 50px;
+    color: white;
+}
+
+.video-section .carousel-item-content .watch-video i {
+    font-size: 150px;
+    color: white;
+}
+
+.video-section .carousel-item-content .watch-video {
+    opacity: 0.75;
+    color: white;
+    margin-bottom: 40px;
+}
+
+.video-section .carousel-item-content .watch-video:hover {
+    color: white;
+    opacity: 1 !important;
+    cursor: pointer;
+}
+
+.video-section .carousel-item-content .view-profile-btn {
+    padding: 6px 20px;
+    font-size: 14px;
+    background: rgba(0, 0, 0, .5);
+    color: white;
+    margin-top: 42px;
+    border-radius: 5px;
+}
+
+.video-section .carousel-item-content .view-profile-btn:hover {
+    cursor: pointer;
+    background-color: black;
+    color: white;
+}
+
+.video-section .slide-process-bao {
+    justify-content: space-between;
+    width: 60%;
+    margin: 0 auto;
+}
+
+.video-section .slide-process-bao li {
+    width: 100%;
+    height: 72px;
+    background: none !important;
+    text-indent: unset;
+    display: flex;
+    justify-self: flex-start
+}
+
+.video-section .slide-process-bao li:hover {
+    cursor: pointer;
+}
+
+.video-section .carousel-indicators .active {
+    border-bottom: 6px solid #f38630;
+}
+
+.video-section .slide-process-bao li .slide-process-img {
+    width: 50px;
+    height: 50px;
+    margin-right: 20px;
+}
+
+.video-section .slide-process-bao li .slide-process-img img {
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 50%;
+}
+
+.video-section .slide-process-bao li .slide-process-content {
+    color: white;
+}
+
+.video-section .slide-process-bao li .slide-process-content span {
+    font-size: 15px;
+}
+
+.video-section .slide-process-bao li .slide-process-content p {
+    color: #dde0c9;
 }
