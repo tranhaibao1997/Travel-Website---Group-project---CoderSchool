@@ -1,3 +1,7 @@
+nav  {
+    font-size: 14px;
+    background-color: #fff !important;
+}
 .btn-duy-login
 {
     
@@ -5,6 +9,9 @@ cursor: pointer;
     color:black;
     background-color: white;
     border-color: #888;
+    font-size: 12px;
+    line-height: 1.2;
+    padding: 7px 22px;
 }
 .btn-duy-login:hover{
     color: white;
@@ -13,8 +20,9 @@ cursor: pointer;
 }
 .btn-duy-register{
     color:black;
-    background-color: blue;
-    border-color: blue;
+    font-size: 12px;
+    line-height: 1.2;
+    padding: 7px 22px;
 }
 .BG-footer{
     background-color:#323337;
