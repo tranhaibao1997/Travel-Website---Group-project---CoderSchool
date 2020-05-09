@@ -20,6 +20,7 @@ nav {
     font-size: 12px;
     line-height: 1.2;
     padding: 7px 22px;
+    font-family: 'Poppins', sans-serif;
 }
 
 .btn-duy-login:hover {
@@ -33,6 +34,8 @@ nav {
     font-size: 12px;
     line-height: 1.2;
     padding: 7px 22px;
+    font-family: 'Poppins', sans-serif !important;
+    
 }
 
 .BG-footer {

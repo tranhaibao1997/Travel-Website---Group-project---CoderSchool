@@ -10,13 +10,15 @@
 
     <!-- Bootstrap CSS -->
     <script src="https://kit.fontawesome.com/a8c4c24db6.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="style.css">
     <link rel="stylesheet" type="text/css" href="guides.css">
     <link rel="stylesheet" type="text/css" href="exp.css">
     <link rel="stylesheet" type="text/css" href="nav-footer.css">
-    <link rel="shortcut icon" type="image/png" href="img/liv-favicon.png"/>
+    <link rel="stylesheet" type="text/css" href="jumbotron.css">
+    <link rel="shortcut icon" type="image/png" href="img/liv-favicon.png" />
     <script type="text/javascript" src="./javascript.js"></script>
     <!-- AOS link-->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
@@ -30,7 +32,8 @@
     <nav class="navbar navbar-expand-lg navbar-light  ">
         <div class="container">
             <img class="navbar-brand" src="img/liv-logo.png" alt="liv logo" />
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
 
@@ -38,7 +41,8 @@
 
                 <ul class="navbar-nav ml-auto ">
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             Meet A Local
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -61,13 +65,94 @@
 
 
                 <button class="btn btn-outline-success my-2 my-sm-0 mr-3 btn-duy-login" type="submit">Login</button>
-                <button class="btn btn-outline-success my-2 my-sm-0 active btn-duy-register" type="submit">Register</button>
+                <button class="btn btn-outline-success my-2 my-sm-0 active btn-duy-register"
+                    type="submit">Register</button>
 
             </div>
         </div>
 
     </nav>
     <!--Duy section - Navbar-->
+    <!--Minh section-jumbotron-->
+    <div class="empty" style="height:83px"></div>
+    <section class="Minh-section">
+        <div class="jumbotron-background-img"></div>
+        <div class="container" style="display: flex;">
+            <div class="Minh-mainpicture">
+                <div class="minhtext-wrapper">
+                    <div class="title-wrapper">
+                    </div>
+                    <div class="small-text">
+                        <div class="text-local">
+                            <p>Find a Vietnamese local</p>
+                        </div>
+                        <div class="show-text">
+                            <p>to show you around</p>
+                        </div>
+                    </div>
+                </div>
+    
+    
+    
+                <div class="Minh-container">
+                 <div class="searchbar">
+    
+                        <div class="Minh-search">
+                            <div class="empty-div"></div>
+                            <i class="fas fa-search"></i>
+                            <input type="text" placeholder="Where do you want to go..." />
+                           
+                                <button type="button" class="btn btn-success search-btn"
+                                   >Browse Local</button>
+    
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="Minh-slider">
+                <div class="big-title">
+                    <h1>Immersive. Unique. Fun</h1>
+                </div>
+                <div id="carouselExampleIndicators" class="carousel slide minh-slider-all" data-ride="carousel">
+                    <ol class="carousel-indicators minh-slide-change">
+                        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item minh-carousel-item active">
+                           
+                            <img src="https://www.showaround.com/src/images/d331490e887b6a63f83000a5f0835350.png"
+                                class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item minh-carousel-item">
+                           
+                            <img src="https://www.showaround.com/src/images/8f9d80fd6d09a5d4232d83e26f760308.png" alt="...">
+                        </div>
+                        <div class="carousel-item minh-carousel-item">
+                            
+                            <img src="https://www.showaround.com/src/images/f5b965f85d0858ec13cc2e7acc268217.png" alt="...">
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" style="left: -35px;" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next"style="right: -35px;" href="#carouselExampleIndicators" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+       
+
+
+
+    </section>
+    <!--Minh section-jumbotron-->
+
 
 
     <!--Ji section - Cards-->
@@ -75,9 +160,6 @@
         <h3 class="section-title">Find your local tour guide with Showaround</h3>
         <div class="container">
             <div class="cards-wrapper">
-
-
-
                 <div class="guides-card">
                     <div class="additional">
                         <div class="user-card">
@@ -90,7 +172,9 @@
                             </div>
                             <span class="points center badge badge-pill badge-success">$11 per hour</span>
                             <div class="center">
-                                <img class="img-guide rounded-circle z-depth-2" src="https://showaroundoriginal.imgix.net/sa/9623883/4z1474353786xz152nziek.jpg?w=320&h=320&dpr=1.5&or=0&q=60&bri=0&con=0&rect=0,0,960,960&crop=faces" data-holder-rendered="true" />
+                                <img class="img-guide rounded-circle z-depth-2"
+                                    src="https://showaroundoriginal.imgix.net/sa/9623883/4z1474353786xz152nziek.jpg?w=320&h=320&dpr=1.5&or=0&q=60&bri=0&con=0&rect=0,0,960,960&crop=faces"
+                                    data-holder-rendered="true" />
                             </div>
                         </div>
                         <div class="more-info">
@@ -125,7 +209,8 @@
                     </div>
                     <div class="general">
                         <h1>Thu</h1>
-                        <p>Let's go to the beach together, enjoy the sun, go snorkeling, and we finish the day by eating at one of the best Vietnamese buffet restaurants in the country!</p>
+                        <p>Let's go to the beach together, enjoy the sun, go snorkeling, and we finish the day by eating
+                            at one of the best Vietnamese buffet restaurants in the country!</p>
                         <span class="more text-white bg-info p-2">Mouse over for more info</span>
                     </div>
                 </div>
@@ -142,7 +227,9 @@
                             </div>
                             <span class="points center badge badge-pill badge-success">$16 per hour</span>
                             <div class="center">
-                                <img class="img-guide rounded-circle z-depth-2" src="https://showaroundoriginal.imgix.net/sa/9644925/xc1580823541ym3vnhs42i.jpg?w=320&h=320&dpr=1.5&or=0&q=60&bri=0&con=0&rect=0,0,2320,2320&crop=faces" data-holder-rendered="true" />
+                                <img class="img-guide rounded-circle z-depth-2"
+                                    src="https://showaroundoriginal.imgix.net/sa/9644925/xc1580823541ym3vnhs42i.jpg?w=320&h=320&dpr=1.5&or=0&q=60&bri=0&con=0&rect=0,0,2320,2320&crop=faces"
+                                    data-holder-rendered="true" />
                             </div>
                         </div>
                         <div class="more-info">
@@ -177,7 +264,8 @@
                     </div>
                     <div class="general">
                         <h1>Nina</h1>
-                        <p>Russian tour guide who has been living here for over 10 years. Some of the best Russian food can be discovered in Ho Chi Minh, so let me take you to them.</p>
+                        <p>Russian tour guide who has been living here for over 10 years. Some of the best Russian food
+                            can be discovered in Ho Chi Minh, so let me take you to them.</p>
                         <span class="more text-white bg-info p-2">Mouse over for more info</span>
                     </div>
                 </div>
@@ -196,7 +284,9 @@
                             </div>
                             <span class="points center badge badge-pill badge-success">$9 per hour</span>
                             <div class="center">
-                                <img class="img-guide rounded-circle z-depth-2" src="https://showaroundoriginal.imgix.net/sa/9903672/oo1555181768taarjwz3pb.jpg?w=320&h=320&dpr=1.5&or=0&q=60&bri=0&con=0&rect=0,0,1230,1230&crop=faces" data-holder-rendered="true" />
+                                <img class="img-guide rounded-circle z-depth-2"
+                                    src="https://showaroundoriginal.imgix.net/sa/9903672/oo1555181768taarjwz3pb.jpg?w=320&h=320&dpr=1.5&or=0&q=60&bri=0&con=0&rect=0,0,1230,1230&crop=faces"
+                                    data-holder-rendered="true" />
                             </div>
                         </div>
                         <div class="more-info">
@@ -227,7 +317,8 @@
                     </div>
                     <div class="general">
                         <h1>Linh</h1>
-                        <p>Don't rely on Tripadvisor to find Vietnamese restaurants. The hidden gems are the ones that only locals know about. Lucky for you, I know them all :)</p>
+                        <p>Don't rely on Tripadvisor to find Vietnamese restaurants. The hidden gems are the ones that
+                            only locals know about. Lucky for you, I know them all :)</p>
                         <span class="more text-white bg-info p-2">Mouse over for more info</span>
                     </div>
                 </div>
@@ -244,7 +335,9 @@
                             </div>
                             <span class="points center badge badge-pill badge-success">$10 per hour</span>
                             <div class="center">
-                                <img class="img-guide rounded-circle z-depth-2" src="https://showaroundoriginal.imgix.net/sa/9584935/2n1513227424v2gkiyrmdj.jpg?w=320&h=320&dpr=1.5&or=0&q=60&bri=0&con=0&rect=160,0,640,640&crop=faces" data-holder-rendered="true" />
+                                <img class="img-guide rounded-circle z-depth-2"
+                                    src="https://showaroundoriginal.imgix.net/sa/9584935/2n1513227424v2gkiyrmdj.jpg?w=320&h=320&dpr=1.5&or=0&q=60&bri=0&con=0&rect=160,0,640,640&crop=faces"
+                                    data-holder-rendered="true" />
                             </div>
                         </div>
                         <div class="more-info">
@@ -279,7 +372,8 @@
                     </div>
                     <div class="general">
                         <h1>James</h1>
-                        <p>My name is James and I am a professional golfer. Let me take you to the best golf courses in the city and give you tips on your game.</p>
+                        <p>My name is James and I am a professional golfer. Let me take you to the best golf courses in
+                            the city and give you tips on your game.</p>
                         <span class="more text-white bg-info p-2">Mouse over for more info</span>
                     </div>
                 </div>
@@ -298,7 +392,8 @@
         <div class="container">
             <div class="savetime-banner-content">
                 <h3 class="banner-auto-text">
-                    SAVE TIME: <span class="typewrite text-danger" data-period="2000" data-type='[ "CREATE A TRIP & GET OFFERS FROM LOCALS", "WHAT ART YOU WAITING FOR ?","BIG SALE ONLY TODAY!" ]'>
+                    SAVE TIME: <span class="typewrite text-danger" data-period="2000"
+                        data-type='[ "CREATE A TRIP & GET OFFERS FROM LOCALS", "WHAT ART YOU WAITING FOR ?","BIG SALE ONLY TODAY!" ]'>
                         <span class="wrap"></span>
                     </span>
                 </h3>
@@ -329,7 +424,9 @@
                             </div>
                             <span class="points center badge badge-pill badge-success">$7 per hour</span>
                             <div class="center">
-                                <img class="img-guide rounded-circle z-depth-2" src="https://showaroundoriginal.imgix.net/sa/9707480/an1490702036oy4m3204pv.jpg?w=320&h=320&dpr=1.5&or=0&q=60&bri=0&con=0&rect=0,0,720,720&crop=faces" data-holder-rendered="true" />
+                                <img class="img-guide rounded-circle z-depth-2"
+                                    src="https://showaroundoriginal.imgix.net/sa/9707480/an1490702036oy4m3204pv.jpg?w=320&h=320&dpr=1.5&or=0&q=60&bri=0&con=0&rect=0,0,720,720&crop=faces"
+                                    data-holder-rendered="true" />
                             </div>
                         </div>
                         <div class="more-info">
@@ -364,7 +461,8 @@
                     </div>
                     <div class="general">
                         <h1>Trang</h1>
-                        <p>Hi! I was born and raised in Hanoi and know all the great photography spots! If you are a photographer looking for a photo tour guide, contact me!</p>
+                        <p>Hi! I was born and raised in Hanoi and know all the great photography spots! If you are a
+                            photographer looking for a photo tour guide, contact me!</p>
                         <span class="more text-white bg-info p-2">Mouse over for more info</span>
                     </div>
                 </div>
@@ -381,7 +479,9 @@
                             </div>
                             <span class="points center badge badge-pill badge-success">$19 per hour</span>
                             <div class="center">
-                                <img class="img-guide rounded-circle z-depth-2" src="https://showaroundoriginal.imgix.net/sa/9978369/ri1566548371jmw5ahh04w.jpg?w=320&h=320&dpr=1.5&or=0&q=60&bri=0&con=0&rect=2,0,1436,1436&crop=faces" data-holder-rendered="true" />
+                                <img class="img-guide rounded-circle z-depth-2"
+                                    src="https://showaroundoriginal.imgix.net/sa/9978369/ri1566548371jmw5ahh04w.jpg?w=320&h=320&dpr=1.5&or=0&q=60&bri=0&con=0&rect=2,0,1436,1436&crop=faces"
+                                    data-holder-rendered="true" />
                             </div>
                         </div>
                         <div class="more-info">
@@ -412,7 +512,8 @@
                     </div>
                     <div class="general">
                         <h1>Duy</h1>
-                        <p>I am a tour guide focused on partying! If you'd like to go to all the hot spots in Ho Chi Minh, I am your guide!</p>
+                        <p>I am a tour guide focused on partying! If you'd like to go to all the hot spots in Ho Chi
+                            Minh, I am your guide!</p>
                         <span class="more text-white bg-info p-2">Mouse over for more info</span>
                     </div>
                 </div>
@@ -431,7 +532,9 @@
                             </div>
                             <span class="points center badge badge-pill badge-success">$5 per hour</span>
                             <div class="center">
-                                <img class="img-guide rounded-circle z-depth-2" src="https://showaroundoriginal.imgix.net/sa/9892376/h51585478734lcnurnd3qz.jpg?w=320&h=320&dpr=1.5&or=0&q=60&bri=0&con=0&rect=127,200,731,733&crop=faces" data-holder-rendered="true" />
+                                <img class="img-guide rounded-circle z-depth-2"
+                                    src="https://showaroundoriginal.imgix.net/sa/9892376/h51585478734lcnurnd3qz.jpg?w=320&h=320&dpr=1.5&or=0&q=60&bri=0&con=0&rect=127,200,731,733&crop=faces"
+                                    data-holder-rendered="true" />
                             </div>
                         </div>
                         <div class="more-info">
@@ -466,7 +569,8 @@
                     </div>
                     <div class="general">
                         <h1>Hannah</h1>
-                        <p>Da Nang is known for its beaches. Don't go to crowded beaches and let me guide you to the less populated areas with white sand.</p>
+                        <p>Da Nang is known for its beaches. Don't go to crowded beaches and let me guide you to the
+                            less populated areas with white sand.</p>
                         <span class="more text-white bg-info p-2">Mouse over for more info</span>
                     </div>
                 </div>
@@ -483,7 +587,9 @@
                             </div>
                             <span class="points center badge badge-pill badge-success">$12 per hour</span>
                             <div class="center">
-                                <img class="img-guide rounded-circle z-depth-2" src="https://showaroundoriginal.imgix.net/sa/10009711/aj1578630946r3ks1iith6.jpg?w=200&h=200&dpr=1.5&or=0&q=60&bri=0&con=0&rect=0,0,958,958&crop=faces" data-holder-rendered="true" />
+                                <img class="img-guide rounded-circle z-depth-2"
+                                    src="https://showaroundoriginal.imgix.net/sa/10009711/aj1578630946r3ks1iith6.jpg?w=200&h=200&dpr=1.5&or=0&q=60&bri=0&con=0&rect=0,0,958,958&crop=faces"
+                                    data-holder-rendered="true" />
                             </div>
                         </div>
                         <div class="more-info">
@@ -518,7 +624,8 @@
                     </div>
                     <div class="general">
                         <h1>Mimi</h1>
-                        <p>I am a coffee lover and have been to over 100 cafes in the city. Enjoy different kinds of Vietnamese coffee with me as your tour guide.</p>
+                        <p>I am a coffee lover and have been to over 100 cafes in the city. Enjoy different kinds of
+                            Vietnamese coffee with me as your tour guide.</p>
                         <span class="more text-white bg-info p-2">Mouse over for more info</span>
                     </div>
                 </div>
@@ -591,7 +698,9 @@
                     </div>
 
 
-                    <img class="d-block w-100" src="https://www.tripsavvy.com/thmb/pePcQqX77-Ms6xcJ7YVzfgMmz3c=/3707x2085/smart/filters:no_upscale()/saigon-ho-chi-minh-city-vietnam-5c489f50c9e77c000112d22b.jpg" alt="First slide">
+                    <img class="d-block w-100"
+                        src="https://www.tripsavvy.com/thmb/pePcQqX77-Ms6xcJ7YVzfgMmz3c=/3707x2085/smart/filters:no_upscale()/saigon-ho-chi-minh-city-vietnam-5c489f50c9e77c000112d22b.jpg"
+                        alt="First slide">
                 </div>
                 <div class="carousel-item">
                     <div class="carousel-item-content">
@@ -605,7 +714,9 @@
 
                         </div>
                     </div>
-                    <img class="d-block w-100" src="https://static.asiawebdirect.com/m/bangkok/portals/vietnam/homepage/hue/pagePropertiesImage/hue-city.jpg.jpg" alt="Second slide">
+                    <img class="d-block w-100"
+                        src="https://static.asiawebdirect.com/m/bangkok/portals/vietnam/homepage/hue/pagePropertiesImage/hue-city.jpg.jpg"
+                        alt="Second slide">
                 </div>
                 <div class="carousel-item">
                     <div class="carousel-item-content">
@@ -619,7 +730,9 @@
 
                         </div>
                     </div>
-                    <img class="d-block w-100" src="https://www.featurepics.com/StockImage/20150228/nha-trang-city-stock-picture-3486209.jpg" alt="Third slide">
+                    <img class="d-block w-100"
+                        src="https://www.featurepics.com/StockImage/20150228/nha-trang-city-stock-picture-3486209.jpg"
+                        alt="Third slide">
                 </div>
             </div>
             <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -683,7 +796,8 @@
 
                             <h4>Hân Nguyễn </h4>
                             <h1>Ho Chi Minh City, Vietnam</h1>
-                            <p>The perfect way to see Saigon is by motorbike. Biketour Saigon can give you an interesting experiences.</p>
+                            <p>The perfect way to see Saigon is by motorbike. Biketour Saigon can give you an
+                                interesting experiences.</p>
                             <button class="btn-readMore3">Read more</button>
 
                         </div>
@@ -726,17 +840,33 @@
             <h3 class="section-title" style="text-align: center;
             margin: 10px 0;
             font-size: 32px;">Showaround: More Than Just Your Average City Tour</h3>
-            <p>There’s no better way to feel the heartbeat of a city than discovering it with a knowledgeable local by your side who has similar interests to yours. Whether you want the focus of your visit to be on art, food, nightlife, sightseeing, or culture,
-                now you can customize a city tour with a Showaround local wherever your next destination <span id="dots">... <a id="readMoreBtn">+ Read More</a></span>
+            <p>There’s no better way to feel the heartbeat of a city than discovering it with a knowledgeable local by
+                your side who has similar interests to yours. Whether you want the focus of your visit to be on art,
+                food, nightlife, sightseeing, or culture,
+                now you can customize a city tour with a Showaround local wherever your next destination <span
+                    id="dots">... <a id="readMoreBtn">+ Read More</a></span>
                 <span id="more">might be.
-    
-                    What is Showaround? Showaround helps travellers to connect with locals who are ready to show off what they love most about their home cities – or in other words, it’s an online marketplace for private tours, where users have the freedom to tailor tours with residents before they arrive at their travel destination.</br></br>
-                    
-                    When arranging a trip with the help of a local, sightseeing becomes a more flexible and impromptu experience, as opposed to formal guided excursions or pre-packaged itineraries which are regimented to suit large groups. With Showaround locals, you can take a turn at any narrow street, café or store that catches your eye, giving you the chance to make spontaneous decisions and enjoy whatever comes your way.</br></br>
-                    
-                    The Showaround website makes it easy to find and meet locals who want to share not only tourist attractions and famous must-sees, but also what’s happening ‘behind the scenes’, as well as their favourite spots and best things to do in the city you’re visiting. You can also use the Showaround app for both iOS and Android mobile devices. With the free app, you get simple and on-the-go access to 126720 locals worldwide.</br></br>
-                    
-                    From some of the most popular metropolises around the world like Paris, London and New York to less-visited cities such as Tbilisi or Kiev, with Showaround, you’re only a few clicks away from finding the perfect local friend.</span></p>
+
+                    What is Showaround? Showaround helps travellers to connect with locals who are ready to show off
+                    what they love most about their home cities – or in other words, it’s an online marketplace for
+                    private tours, where users have the freedom to tailor tours with residents before they arrive at
+                    their travel destination.</br></br>
+
+                    When arranging a trip with the help of a local, sightseeing becomes a more flexible and impromptu
+                    experience, as opposed to formal guided excursions or pre-packaged itineraries which are regimented
+                    to suit large groups. With Showaround locals, you can take a turn at any narrow street, café or
+                    store that catches your eye, giving you the chance to make spontaneous decisions and enjoy whatever
+                    comes your way.</br></br>
+
+                    The Showaround website makes it easy to find and meet locals who want to share not only tourist
+                    attractions and famous must-sees, but also what’s happening ‘behind the scenes’, as well as their
+                    favourite spots and best things to do in the city you’re visiting. You can also use the Showaround
+                    app for both iOS and Android mobile devices. With the free app, you get simple and on-the-go access
+                    to 126720 locals worldwide.</br></br>
+
+                    From some of the most popular metropolises around the world like Paris, London and New York to
+                    less-visited cities such as Tbilisi or Kiev, with Showaround, you’re only a few clicks away from
+                    finding the perfect local friend.</span></p>
 
 
         </div>
@@ -790,9 +920,15 @@
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
 
 
 </body>
