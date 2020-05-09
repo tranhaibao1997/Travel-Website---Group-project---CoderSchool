@@ -1,0 +1,46 @@
+.btn-duy-login
+{
+    
+cursor: pointer;
+    color:black;
+    background-color: white;
+    border-color: #888;
+}
+.btn-duy-login:hover{
+    color: white;
+    background-color: #888;
+    border-color:#888 ;
+}
+.btn-duy-register{
+    color:black;
+    background-color: blue;
+    border-color: blue;
+}
+.BG-footer{
+    background-color:#323337;
+}
+.makecolor{
+    color: #fff;
+}
+.makecolor-ul{
+    color: #45c0f7 !important
+}
+.morecolor{
+    color: white;
+    font-size: 50px;
+}
+.makecolor-twiter{
+    color:white;
+    font-size: 50px;
+}
+.duy-icon
+{
+
+cursor: pointer;
+
+}
+.mobile-footer-duy
+{
+   
+    text-align: center !important;
+}
