@@ -1,1 +1,93 @@
-@import url('http://fonts.googleapis.com/css?family=Poppins');
+
+.section-title {
+  font-weight: 400;
+  padding: 24px 12px 6px;
+  color: #323337;
+  text-align: center;
+  font-size: 22px;
+}
+body {
+  background: #f0f2e9;
+}
+.savetime-banner .savetime-banner-content {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  text-align: center;
+  background-image: url("https://www.showaround.com/src/images/a0ea883b8ea2a65b92a3d72590a2c0ce.png");
+  background-position-x: center;
+  background-position-y: center;
+  background-size: 600px 160px;
+  background-repeat: no-repeat;
+  background-attachment: initial;
+  background-origin: initial;
+  background-clip: initial;
+  background-color: rgb(250, 251, 246);
+}
+.savetime-banner-content h3
+{
+    font-size: 26px;
+    color: #323337;
+    font-weight: 900;
+    text-align: center;
+}
+.savetime-banner-content h3 span
+{
+    font-size: 26px;
+    color: #323337;
+    font-weight: 900;
+    text-align: center;
+}
+.savetime-banner-content ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  margin-bottom: 40px;
+  
+}
+.savetime-banner-content ul li
+{
+    font-size: 20px;
+    margin-right: 20px;
+}
+.savetime-banner-content ul li span {
+  /* padding: 20px; */
+  height: 46px;
+  width: 46px;
+  padding: 12px;
+  border-radius: 50%;
+  display: inline-block;
+  color: #fff;
+  font-weight: 600;
+  text-align: center;
+  background-color: aqua;
+}
+.savetime-banner-content a
+{
+    font-size: 16px;
+    width: 250px;
+    height: 41px;
+    background: #03a9f4;
+    border: 2px solid #03a9f4;
+    padding: 5px 50px;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 700;
+    color: #fff !important;
+    margin-top: 30px;
+    letter-spacing: 1px;
+    border-radius: 5px;
+}
+.savetime-banner-content a:hover
+{
+    background: #0286c2;
+    border-color: #0286c2;
+}
+.video-section 
+{
+   position: relative;
+}
+.video-section .carousel-inner
+{
+    height: 510px;
+}
+
