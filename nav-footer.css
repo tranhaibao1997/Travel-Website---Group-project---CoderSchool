@@ -8,6 +8,10 @@ nav {
     border-bottom: 1px solid lightgray;
 }
 
+.navbar-brand {
+    width: 150px;
+}
+
 .btn-duy-login {
     cursor: pointer;
     color: black;
