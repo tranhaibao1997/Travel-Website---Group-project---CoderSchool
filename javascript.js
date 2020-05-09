@@ -1,5 +1,5 @@
 window.addEventListener('DOMContentLoaded', (event) => {
-
+    AOS.init();
     const readMoreBtn = document.getElementById("readMoreBtn")
     readMoreBtn.addEventListener("click", () => {
             console.log("click")
