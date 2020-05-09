@@ -1,4 +1,6 @@
 window.addEventListener('DOMContentLoaded', (event) => {
+
+    $('#carousel').carousel();
     AOS.init();
     const readMoreBtn = document.getElementById("readMoreBtn")
     readMoreBtn.addEventListener("click", () => {

@@ -7,6 +7,9 @@ nav {
     z-index: 10000000;
     border-bottom: 1px solid lightgray;
 }
+.navbar-nav li:hover>.dropdown-menu {
+    display: block;
+  }
 
 .navbar-brand {
     width: 150px;
@@ -14,13 +17,15 @@ nav {
 
 .btn-duy-login {
     cursor: pointer;
-    color: black;
+    color: #888;
     background-color: white;
     border-color: #888;
     font-size: 12px;
     line-height: 1.2;
     padding: 7px 22px;
     font-family: 'Poppins', sans-serif;
+    letter-spacing: 1px;
+    font-weight: 800;
 }
 
 .btn-duy-login:hover {
@@ -35,6 +40,16 @@ nav {
     line-height: 1.2;
     padding: 7px 22px;
     font-family: 'Poppins', sans-serif !important;
+    letter-spacing: 1px;
+    font-weight: 800;
+    background: #f38630 !important;
+    border: 2px solid #f38630 !important;
+    
+}
+.btn-duy-register:hover {
+    
+    background: rgb(221, 106, 74) !important;
+    border: 2px solid rgb(221, 106, 74)!important;
     
 }
 
