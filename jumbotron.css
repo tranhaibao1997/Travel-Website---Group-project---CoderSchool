@@ -1,0 +1,187 @@
+
+.Minh-mainpicture{
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    width:50%;
+    padding-top: 90px;
+}
+
+.img-container{
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    
+    z-index: -1;
+    
+}
+.Minh-container{
+    position:relative;
+    width: 100%;
+    
+    color: black;
+    display:flex;
+
+}
+.searchbar{
+  margin-top:20px;
+  margin-left: 35px;
+ }
+
+  
+input:hover {
+    border: 1px solid green;
+    outline: 0px solid green;
+    box-shadow: 0px 1px 5px 1px rgb(223, 223, 223);
+  }
+
+.slogan-container{
+    display:flex;
+    justify-content: center;
+}
+.search-container{
+    display:flex;
+    
+}
+.Minh-search{
+    margin-left: 45px;
+    position: relative;
+    margin: 0 auto;
+    box-shadow: 0 1px 6px 0 rgba(32, 33, 36, .28);
+    border-radius: 25px;
+    width: 550px;
+    background-color: white;
+}
+.Minh-search .empty-div{
+    position: absolute;
+    left: 0;
+    font-size: 30px;
+    height: 54px;
+    width: 54px;
+    
+}
+.Minh-search i{
+    position: absolute;
+    left: 0;
+    font-size: 20px;
+    height: 54px;
+    display: flex;
+    justify-content: center;
+    /* align-self: center; */
+    width: 54px;
+    align-items: center;
+} 
+.Minh-search input
+{
+    margin-left: 54px;
+    width: 350px;
+    height: 54px;
+    border: none;
+}
+.Minh-search .search-btn
+{
+    position: absolute;
+    right: 0;
+}
+.Minh-search input:hover
+{
+outline: none;
+}
+textarea:focus, input:focus{
+    outline: none;
+}
+.Minh-search button
+{
+    position: absolute;
+    height: 54px;
+    background: #03a9f4;
+    border-color: #03a9f4;
+    text-transform: uppercase;
+    color: white !important;
+}
+.Minh-search button:hover
+{
+    background: #2ebcfc;
+    border-color:#2ebcfc ;
+}
+.jumbotron-wrapper{
+    display:flex;
+}
+.jumbotron-background-img
+{
+    opacity: 0.6;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background-image: url(https://images.unsplash.com/photo-1534883576573-d7ddc1f347b6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80);
+    background-size: cover;
+    z-index: -1;
+}
+.Minh-section{
+    position:relative;
+    height:550px;
+    display:flex;
+    background: linear-gradient(135deg,rgba(3,169,244,.35) 0,rgba(167,219,216,.35) 44%,rgba(243,134,48,.35) 100%) rgba(0,0,0,.15);
+}
+.minhtext-wrapper{
+    width:100%;
+}
+.Minh-mainpicture{
+  
+    color:white;
+}
+.Minh-slider
+{
+width: 50%;
+display:flex;
+justify-content:center;
+align-items: center;
+
+flex-direction: column;
+}
+.minh-slider-all{
+    
+
+    width: 250px;
+    height:250px
+}
+.minh-slider-all .minh-slide-change
+{
+    bottom: -20px;
+}
+.small-text{
+    padding-top: 20px;
+    margin-left: 40px;
+}
+.text-local{
+    font-size: 66px;
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 70px;
+}
+.title-wrapper{
+    display:flex;
+    justify-content: flex-end;
+    color:lightgray;
+}
+.big-title>h1{
+   font-weight: 800;
+   color:whitesmoke;
+   cursor: pointer;
+    font-size: 24px;
+
+}
+.show-text{
+    font-size: 44px;
+    text-transform: uppercase;
+    line-height: 44px;
+}
+.minh-carousel-item img{
+    max-width: 100%;
+    max-height: 100%;
+} 
+
+
+
