@@ -1,4 +1,5 @@
-html, body {
+html,
+body {
     font-family: 'Poppins', sans-serif;
 }
 
@@ -8,8 +9,8 @@ html, body {
     left: 50%;
     -webkit-transform: translate(-50%, -50%);
 }
-.cards-wrapper
-{
+
+.cards-wrapper {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between
@@ -25,6 +26,7 @@ html, body {
     overflow: hidden;
     position: relative;
     margin-bottom: 30px;
+    cursor: pointer;
 }
 
 .guides-card h1 {
@@ -67,7 +69,8 @@ html, body {
     border-left: 2px solid rgba(0, 0, 0, 0.025);
 }
 
-.guides-card .additional .user-card .level, .guides-card .additional .user-card .points {
+.guides-card .additional .user-card .level,
+.guides-card .additional .user-card .points {
     top: 15%;
     color: #fff;
     text-transform: uppercase;
