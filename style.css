@@ -1,9 +1,25 @@
 .section-title {
-    font-weight: 400;
+    font-weight: 800;
     padding: 24px 12px 6px;
     color: #323337;
     text-align: center;
     font-size: 22px;
+    margin-bottom: 40px;
+}
+
+#more {
+    display: none;
+}
+
+#readMoreBtn {
+    color: #03a9f4;
+    cursor: pointer;
+}
+
+#readMoreBtn:hover {
+    color: #03a9f4;
+    cursor: pointer;
+    text-decoration: underline;
 }
 
 body {

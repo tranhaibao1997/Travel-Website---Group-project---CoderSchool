@@ -2,6 +2,10 @@ nav {
     font-size: 14px;
     background-color: #fff !important;
     font-weight: 700;
+    position: fixed !important;
+    width: 100%;
+    z-index: 10000000;
+    border-bottom: 1px solid lightgray;
 }
 
 .btn-duy-login {
