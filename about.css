@@ -257,6 +257,14 @@
 	transition: .5s;
 	transform-origin: left;
 }
+.img-wrapper ul li:nth-child(5)
+{
+    height: auto;
+    width: 60%;
+    color:white;
+    text-align: left;
+    padding-left: 20px;
+}
 .img-wrapper ul li:last-child
 {
     height: auto;
