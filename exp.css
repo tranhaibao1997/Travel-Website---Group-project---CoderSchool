@@ -151,11 +151,9 @@ body{
 }
 
 .info2 img{
- 
+ margin-left: 5px;
  width: 250px;
  height: 250px;
- max-width: 100%;
- max-height: 100%;
 }
 .btn-readMore3{
     background-color: #ffffff;
@@ -229,18 +227,25 @@ body{
     color: #E27D60;
     
 }
-.info img
-    {
-        
-        max-width: 100%;
-        max-height: 100%;
-    }
 
 /* responsive */
-@media(max-width:1199)
-{
-    
-}
+
+@media only screen and (max-width: 600px) {
+    .info{
+        margin-bottom: 20px;
+    }
+
+    #title-left{
+        margin-bottom: 20px;
+    }
+    .info2 img{
+        margin-right: -15px;
+    }
+    .btn-readMore4{
+        margin-top: -5px;
+    }
+  }
+
   @media only screen and (max-width: 900px) {
      #title-right{
          margin-top: 30px;
@@ -255,18 +260,46 @@ body{
         margin-top: 0px;
     }
   }
-  @media only screen and (max-width: 600px) {
-    .info{
-        margin-bottom: 20px;
-    }
 
-    #title-left{
-        margin-bottom: 20px;
-    }
+  @media only screen and (max-width: 1200px) {
+    .info img{
+        
+        width: 220px;
+        height: 220px;
+       }
     .info2 img{
-        margin-right: -15px;
+    
+    width: 220px;
+    height: 220px;
     }
     .btn-readMore4{
+        margin-top: -10px;
+    }
+    .btn-readMore {
         margin-top: -5px;
+    }
+    .btn-readMore2 {
+        margin-top: -5px;
+    }
+    .btn-readMore3 {
+        margin-top: -5px;
+    }
+  }
+  @media only screen and (min-width: 530px) and (max-width: 1000px){
+     .info{
+        width: 480px;
+        margin-left: auto;
+        margin-right: auto;
+     }
+     .info2{
+        width: 480px;
+        margin-left: auto;
+        margin-right: auto;
+     }
+     #title-right{
+         margin-top: 30px;
+     }
+     #title-left{
+        margin-bottom: 30px;
     }
   }

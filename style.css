@@ -23,14 +23,14 @@
 }
 
 body {
-    background: #f0f2e9;
+    background: #f0f2e9 !important;
 }
 
 .savetime-banner .savetime-banner-content {
     padding-top: 30px;
     padding-bottom: 30px;
     text-align: center;
-    background-image: url("https://www.showaround.com/src/images/a0ea883b8ea2a65b92a3d72590a2c0ce.png");
+    background-image: url("https://www.showaround.com/src/images/a0ea883b8ea2a65b92a3d72590a2c0ce.png") !important;
     background-position-x: center;
     background-position-y: center;
     background-size: 600px 160px;

@@ -114,9 +114,9 @@ textarea:focus, input:focus{
     height: 100%;
     width: 100%;
     position: absolute;
-    background-image: url("img/jumbotron-background.jpg");
+    background-image: url("./Img/jumbotron-background.jpg");
     background-size: cover;
-    z-index: -1;
+    z-index: 0;
 }
 .Minh-section{
     position:relative;
@@ -130,6 +130,7 @@ textarea:focus, input:focus{
 .Minh-mainpicture{
   
     color:white;
+    z-index: 10;
 }
 .Minh-slider
 {
@@ -137,7 +138,7 @@ width: 50%;
 display:flex;
 justify-content:center;
 align-items: center;
-
+z-index: 10;
 flex-direction: column;
 }
 .minh-slider-all{
