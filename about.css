@@ -255,6 +255,14 @@
 	transition: .5s;
 	transform-origin: left;
 }
+.img-wrapper ul li:last-child
+{
+    height: auto;
+    width: 80%;
+    color: tomato;
+    text-align: left;
+    padding-left: 20px;
+}
 
 .img-wrapper:hover ul li
 {
