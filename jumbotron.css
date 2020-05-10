@@ -1,4 +1,3 @@
-
 .Minh-mainpicture{
     display:flex;
     flex-direction: column;
@@ -115,7 +114,7 @@ textarea:focus, input:focus{
     height: 100%;
     width: 100%;
     position: absolute;
-    background-image: url(https://images.unsplash.com/photo-1534883576573-d7ddc1f347b6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80);
+    background-image: url("img/jumbotron-background.jpg");
     background-size: cover;
     z-index: -1;
 }
