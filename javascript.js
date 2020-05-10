@@ -2,23 +2,6 @@ window.addEventListener('DOMContentLoaded', (event) => {
 
     $('#carousel').carousel();
     AOS.init();
-    const readMoreBtn = document.getElementById("readMoreBtn")
-    readMoreBtn.addEventListener("click", () => {
-            console.log("click")
-            var dots = document.getElementById("dots");
-            var moreText = document.getElementById("more");
-            var btnText = document.getElementById("readMoreBtn");
-
-            if (dots.style.display === "none") {
-                dots.style.display = "inline";
-                btnText.innerHTML = "Read more";
-                moreText.style.display = "none";
-            } else {
-                dots.style.display = "none";
-                btnText.innerHTML = "Read less";
-                moreText.style.display = "inline";
-            }
-        })
         //made by vipul mirajkar thevipulm.appspot.com
     var TxtType = function(el, toRotate, period) {
         this.toRotate = toRotate;
