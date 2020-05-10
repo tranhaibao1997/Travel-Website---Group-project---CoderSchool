@@ -285,3 +285,18 @@ body {
         height: 410px;
     }
 }
+@media(max-width:400px)
+{
+    .savetime-banner-content ul li
+    {
+        font-size: 15px;
+    }
+    .savetime-banner-content ul
+    {
+        padding: 10px;
+    }
+    .savetime-banner-content ul
+    {
+        margin-bottom: 0px;
+    }
+}
