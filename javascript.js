@@ -4,7 +4,7 @@ function onReady(callback) {
         window.clearInterval(intervalId);
         callback.call(this);
       }
-    }, 1000);
+    }, 2000);
   }
   
   function setVisible(selector, visible) {
@@ -16,9 +16,10 @@ function onReady(callback) {
     setVisible('.loader', false);
   });
 window.addEventListener('DOMContentLoaded', (event) => {
-
+    setTimeout(()=>{
+        AOS.init();
+    },3000)
     $('#carousel').carousel();
-    AOS.init();
     //made by vipul mirajkar thevipulm.appspot.com
     var TxtType = function (el, toRotate, period) {
         this.toRotate = toRotate;
