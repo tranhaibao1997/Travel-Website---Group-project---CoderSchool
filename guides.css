@@ -76,7 +76,7 @@ body {
     color: #fff;
     text-transform: uppercase;
     font-size: 14px;
-    font-weight: bold;
+    font-weight: normal;
     /* background: rgba(0, 0, 0, 0.15); */
     padding: 0.125rem 0.75rem;
     border-radius: 100px;
@@ -148,13 +148,13 @@ body {
 
 .guides-card .additional .stats div.title {
     font-size: 0.75rem;
-    font-weight: bold;
+    font-weight: normal;
     text-transform: uppercase;
 }
 
 .guides-card .additional .stats div.value {
     font-size: 1.5rem;
-    font-weight: bold;
+    font-weight: normal;
     line-height: 1.5rem;
 }
 
