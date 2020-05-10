@@ -10,8 +10,8 @@
     z-index: 100;
     width: 100vw;
     height: 100vh;
-    background-color: white;
-    background-image: url("./Img/Pulse-1s-200px.gif");
+    background-color: #f0f2e9;
+    background-image: url("./Img/Cube-0.5s-191px.gif");
     background-repeat: no-repeat;
     background-position: center;
   }

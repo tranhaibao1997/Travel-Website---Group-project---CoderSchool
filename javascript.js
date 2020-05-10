@@ -18,7 +18,7 @@ function onReady(callback) {
 window.addEventListener('DOMContentLoaded', (event) => {
     setTimeout(()=>{
         AOS.init();
-    },3000)
+    },2500)
     $('#carousel').carousel();
     //made by vipul mirajkar thevipulm.appspot.com
     var TxtType = function (el, toRotate, period) {
