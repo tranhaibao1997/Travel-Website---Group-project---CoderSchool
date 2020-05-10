@@ -228,3 +228,36 @@ body{
     color: #E27D60;
     
 }
+
+/* responsive */
+
+@media only screen and (max-width: 600px) {
+    .info{
+        margin-bottom: 20px;
+    }
+
+    #title-left{
+        margin-bottom: 20px;
+    }
+    .info2 img{
+        margin-right: -15px;
+    }
+    .btn-readMore4{
+        margin-top: -5px;
+    }
+  }
+
+  @media only screen and (max-width: 900px) {
+     #title-right{
+         margin-top: 30px;
+     }
+     #title-left{
+         margin-bottom: 30px;
+     }
+     .info2 img{
+        margin-right: -15px;
+    }
+    .btn-readMore4{
+        margin-top: 0px;
+    }
+  }
