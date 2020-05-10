@@ -1,7 +1,7 @@
 nav {
-    font-size: 14px;
+    font-size: 16px;
     background-color: #fff !important;
-    font-weight: 700;
+    /* font-weight: 700; */
     position: fixed !important;
     width: 100%;
     z-index: 10000000;
@@ -20,12 +20,12 @@ nav {
     color: #888;
     background-color: white;
     border-color: #888;
-    font-size: 12px;
+    font-size: 16px;
     line-height: 1.2;
     padding: 7px 22px;
-    font-family: 'Poppins', sans-serif;
+    /* font-family: 'Poppins', sans-serif; */
     letter-spacing: 1px;
-    font-weight: 800;
+    /* font-weight: 800; */
 }
 
 .btn-duy-login:hover {
@@ -36,12 +36,12 @@ nav {
 
 .btn-duy-register {
     color: black;
-    font-size: 12px;
+    font-size: 16px;
     line-height: 1.2;
     padding: 7px 22px;
-    font-family: 'Poppins', sans-serif !important;
+    /* font-family: 'Poppins', sans-serif !important; */
     letter-spacing: 1px;
-    font-weight: 800;
+    /* font-weight: 800; */
     background: #f38630 !important;
     border: 2px solid #f38630 !important;
     
