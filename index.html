@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;800&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.1.0/css/flag-icon.min.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="style.css">
     <link rel="stylesheet" type="text/css" href="guides.css">
     <link rel="stylesheet" type="text/css" href="exp.css">
@@ -29,9 +30,9 @@
 
 <body>
     <!--Duy section - Navbar-->
-    <nav class="navbar navbar-expand-lg navbar-light  ">
+    <nav class="navbar navbar-expand-lg navbar-light">
         <div class="container">
-            <img class="navbar-brand" src="img/liv-logo.png" alt="liv logo" />
+            <a href="./index.html"><img class="navbar-brand" src="img/liv-logo.png" alt="liv logo" /></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
                 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -57,8 +58,17 @@
                     <li class="nav-item">
                         <a class="nav-link" href="#">Blog <span class="sr-only">(current)</span></a>
                     </li>
-                    <li class="nav-item mr-5">
+                    <li class="nav-item">
                         <a class="nav-link" href="about.html">About Us</a>
+                    </li>
+
+                    <li class="nav-item dropdown mr-4">
+                        <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-haspopup="true"
+                            aria-expanded="false"><span class="flag-icon flag-icon-us"></span> English</a>
+                        <div class="dropdown-menu" aria-labelledby="dropdown09">
+                            <a class="dropdown-item" href="#vn"><span class="flag-icon flag-icon-vn"></span> Vietnamese</a>
+                            <a class="dropdown-item" href="#kr"><span class="flag-icon flag-icon-kr"></span> Korean</a>
+                        </div>
                     </li>
 
                 </ul>
@@ -67,6 +77,7 @@
                 <button class="btn btn-outline-success my-2 my-sm-0 mr-3 btn-duy-login" type="submit">Login</button>
                 <button class="btn btn-outline-success my-2 my-sm-0 active btn-duy-register"
                     type="submit">Register</button>
+
 
             </div>
         </div>
