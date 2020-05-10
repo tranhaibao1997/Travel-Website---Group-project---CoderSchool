@@ -1,6 +1,6 @@
 html,
 body {
-    font-family: 'Poppins', sans-serif;
+    /* font-family: 'Poppins', sans-serif; */
     background: #fff;
 }
 
@@ -14,7 +14,7 @@ body {
 .cards-wrapper {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between
+    justify-content: space-between;
 }
 
 .guides-card {
@@ -191,10 +191,11 @@ body {
 }
 
 @media (max-width:1200px) {
-    /* .cards-wrapper {
-        width: 50%;
-        margin: 0 auto;
-    } */
+    .cards-wrapper {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
 }
 
 @media (max-width:1000px) {}
@@ -236,6 +237,59 @@ body {
 }
 
 @media (max-width:375px) {
+    .guides-card .additional .more-info {
+        padding-top: 20px;
+        width: 450 !important;
+    }
+    .guides-card .general {
+        padding-top: 20px;
+    }
+    .guides-card h1 {
+        font-size: 24px;
+    }
+    .guides-card .general h1 {
+        font-size: 24px;
+    }
+    .guides-card .general p {
+        font-size: 12px;
+    }
+    .guides-card .general .more {
+        display: none;
+    }
+    .guides-card .additional .coords span+span {
+        float: none;
+    }
+    .mobile-hide {
+        display: none;
+    }
+    .guides-card .additional .coords {
+        margin: 0 1;
+        color: #fff;
+        font-size: auto;
+    }
+    .guides-card .general {
+        width: 180px;
+    }
+}
+
+@media (max-width:350px) {
+
+    .guides-card .additional {
+        width: 120px;
+    }
+
+    .guides-card .img-guide {
+        width: 100px;
+    }
+
+    .guides-card .additional .user-card {
+        width: 120px;
+    }
+
+    .guides-card .additional .user-card .points {
+        font-size: 12px;
+    }
+
     .guides-card .additional .more-info {
         padding-top: 20px;
         width: 450 !important;
