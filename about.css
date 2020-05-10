@@ -184,6 +184,7 @@
     position: relative;
     perspective: 900px;
     transition: 0.4s;
+    margin-bottom: 30px;
 }
 
 .flip-card .user-img {
@@ -244,3 +245,24 @@
 
 
 /*meet-our-teams */
+
+@media(max-width:767px)
+{
+    .about-us-banner-content p {
+        line-height: 1.2;
+        font-size: 24px;
+    }
+    .about-us-banner {
+        height: 220px;
+        padding-top: 45px;
+    }
+    .meet-our-teams-contain-title
+    {
+        margin-top: 50px;
+    }
+    .meet-our-teams-contain>.flip-card-wrapper
+    {
+        justify-content: center;
+    }
+      
+}
