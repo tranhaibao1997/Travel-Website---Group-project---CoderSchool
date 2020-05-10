@@ -284,6 +284,10 @@ flex-direction: column;
     {
         display: none;
     }
+    .Minh-search input
+    {
+        width: 153px;
+    }
 }
 
 
