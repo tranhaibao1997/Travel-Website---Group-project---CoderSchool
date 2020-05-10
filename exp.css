@@ -61,16 +61,14 @@ width: 40%;
     text-transform: uppercase;
     font-weight: 400;
     float: right;
+    cursor: pointer;
 }
 .exp-content
 {
     padding-left: 20px;
 }
 
-.exp-card-1
-{
-    border: 1px solid #e8a87c;
-}
+
 .exp-card-2,.exp-card-2 h1,.exp-card-2 p,.exp-card-2 h4
 {
     color: white;
@@ -82,14 +80,16 @@ width: 40%;
 }
 
 
-.exp-card-1
+.exp-card-1 button:hover
 {
-    border: 1px solid #e8a87c;
+    background-color: #e8a87c;
 }
-.exp-card-1
+
+.exp-card-4 button:hover
 {
-    border: 1px solid #e8a87c;
+    background-color: lightblue;
 }
+
 .exp-card-3
 {
     background-color: rgba(3,169,244,.7);
@@ -105,7 +105,7 @@ width: 40%;
 }
 .exp-card-4
 {
-    border: 1px solid rgba(3,169,244,.7);
+    /* border: 1px solid rgba(3,169,244,.7); */
 }
 .exp-card-4 button
 {
@@ -120,6 +120,7 @@ width: 40%;
     padding: 5px 50px;
     color: #e8a87c;
     font-weight: bold;
+    cursor: pointer;
 }
 .showMore
 {
