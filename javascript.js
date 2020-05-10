@@ -1,9 +1,26 @@
+function onReady(callback) {
+    var intervalId = window.setInterval(function() {
+      if (document.getElementsByTagName('body')[0] !== undefined) {
+        window.clearInterval(intervalId);
+        callback.call(this);
+      }
+    }, 1000);
+  }
+  
+  function setVisible(selector, visible) {
+    document.querySelector(selector).style.display = visible ? 'block' : 'none';
+  }
+  
+  onReady(function() {
+    setVisible('.content', true);
+    setVisible('.loader', false);
+  });
 window.addEventListener('DOMContentLoaded', (event) => {
 
     $('#carousel').carousel();
     AOS.init();
-        //made by vipul mirajkar thevipulm.appspot.com
-    var TxtType = function(el, toRotate, period) {
+    //made by vipul mirajkar thevipulm.appspot.com
+    var TxtType = function (el, toRotate, period) {
         this.toRotate = toRotate;
         this.el = el;
         this.loopNum = 0;
@@ -13,7 +30,7 @@ window.addEventListener('DOMContentLoaded', (event) => {
         this.isDeleting = false;
     };
 
-    TxtType.prototype.tick = function() {
+    TxtType.prototype.tick = function () {
         var i = this.loopNum % this.toRotate.length;
         var fullTxt = this.toRotate[i];
 
@@ -39,12 +56,12 @@ window.addEventListener('DOMContentLoaded', (event) => {
             delta = 500;
         }
 
-        setTimeout(function() {
+        setTimeout(function () {
             that.tick();
         }, delta);
     };
 
-    window.onload = function() {
+    window.onload = function () {
         var elements = document.getElementsByClassName('typewrite');
         for (var i = 0; i < elements.length; i++) {
             var toRotate = elements[i].getAttribute('data-type');

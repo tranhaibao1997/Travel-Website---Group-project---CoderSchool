@@ -1,3 +1,21 @@
+.content
+{
+    display: none;
+}
+.loader {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    width: 100vw;
+    height: 100vh;
+    background-color: white;
+    background-image: url("./Img/Pulse-1s-200px.gif");
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
 .section-title {
     font-weight: 800;
     padding: 24px 12px 6px;
